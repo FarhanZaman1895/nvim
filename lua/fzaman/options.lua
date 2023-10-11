@@ -1,5 +1,5 @@
 -- Neovim Options Table
-options = {
+local options = {
   -- Line Numbers
   number = true,
   relativenumber = true,
@@ -18,26 +18,27 @@ options = {
   smartcase = true,
   hlsearch = true,
   incsearch = true,
-  
+
   -- Appearance
   cursorline = true,
   termguicolors = true,
   background = "dark",
   signcolumn = "yes",
-  
+
   -- Backups and Swaps
   backup = false,
   swapfile = false,
   undofile = true,
-  
+
   -- Update Times
+  timeout = true,
   timeoutlen = 500,
   updatetime = 300,
-  
+
   -- Splits
   splitbelow = true,
   splitright = true,
-  
+
   -- Other
   mouse = 'a',
   laststatus = 3,
