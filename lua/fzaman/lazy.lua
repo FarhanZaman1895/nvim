@@ -75,6 +75,13 @@ require("lazy").setup({
     opts = {}
   },
 
+  {
+    "akinsho/toggleterm.nvim",
+    version = "*",
+    event = "VeryLazy",
+    opts = {}
+  },
+
   -- Plugins with their own config file
   require("fzaman.plugins.cmp"),
   require("fzaman.plugins.colourscheme"),
