@@ -75,13 +75,6 @@ require("lazy").setup({
     opts = {}
   },
 
-  {
-    "akinsho/toggleterm.nvim",
-    version = "*",
-    event = "VeryLazy",
-    opts = {}
-  },
-
   -- Plugins with their own config file
   require("fzaman.plugins.cmp"),
   require("fzaman.plugins.colourscheme"),
@@ -90,6 +83,7 @@ require("lazy").setup({
   require("fzaman.plugins.mason"),
   require("fzaman.plugins.nvim-tree"),
   require("fzaman.plugins.telescope"),
+  require("fzaman.plugins.toggleterm"),
   require("fzaman.plugins.treesitter")
 }, {
   defaults = {
