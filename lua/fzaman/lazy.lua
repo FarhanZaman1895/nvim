@@ -90,6 +90,7 @@ require("lazy").setup({
     lazy = true
   },
   ui = {
-    border = "rounded"
+    border = "rounded",
+    size = { width = 0.7, height = 0.8 }
   }
 })
