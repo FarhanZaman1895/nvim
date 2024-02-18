@@ -83,7 +83,6 @@ require("lazy").setup({
   require("fzaman.plugins.mason"),
   require("fzaman.plugins.nvim-tree"),
   require("fzaman.plugins.telescope"),
-  require("fzaman.plugins.toggleterm"),
   require("fzaman.plugins.treesitter")
 }, {
   defaults = {
