@@ -14,6 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Run Lazy
 require("lazy").setup({
+
   -- Autopairs
   {
     "windwp/nvim-autopairs",
@@ -30,7 +31,7 @@ require("lazy").setup({
   {
     "NvChad/nvim-colorizer.lua",
     lazy = false,
-    opts = {}
+    config = {names = false}
   },
 
   -- Comment
