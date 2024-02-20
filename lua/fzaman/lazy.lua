@@ -31,7 +31,9 @@ require("lazy").setup({
   {
     "NvChad/nvim-colorizer.lua",
     lazy = false,
-    config = {names = false}
+    config = {
+      user_default_options = { names = false }
+    }
   },
 
   -- Comment
