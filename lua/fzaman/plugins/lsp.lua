@@ -13,7 +13,7 @@ return {
         focusable = false,
         stlye = "minimal",
         border = "rounded",
-        source = "always",
+        source = true,
         header = "",
         prefix = ""
       }
